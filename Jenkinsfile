@@ -11,7 +11,7 @@ pipeline {
 
                 echo " Checking out repository..."
 
-                git branch: 'main', url: 'https://github.com/hassan-maher-dev/HelloApp.git'
+                git branch: 'main', url: 'https://github.com/hassan-maher-dev/Intelligent-Infrastructure.git'
 
             }
 
