@@ -40,7 +40,7 @@ allowed_ssh_ips = ["0.0.0.0/0"]  # Replace with your IP for production
 # Add your IAM user ARN here (get it with: aws sts get-caller-identity)
 additional_iam_users = [
   {
-    userarn  = "arn:aws:iam::944443936932:user/terraform"  # REPLACE THIS
+    userarn  = "arn:aws:iam::325087564752:user/terraform"  # REPLACE THIS
     username = "terraform"
     groups   = ["system:masters"]
   }
