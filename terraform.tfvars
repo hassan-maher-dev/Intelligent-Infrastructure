@@ -50,7 +50,7 @@ additional_iam_users = [
 additional_iam_roles = [
   # Uncomment and modify if needed:
   {
-    rolearn  = "arn:aws:iam::944443936932:role/jenkins-role"
+    rolearn  = "arn:aws:iam::325087564752:role/jenkins-role"
     username = "jenkins-role"
     groups   = ["system:masters"]
   }
