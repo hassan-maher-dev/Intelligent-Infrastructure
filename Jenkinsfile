@@ -79,7 +79,7 @@ pipeline {
     post {
 
         always {
-            // هذا الأمر سيعمل دائماً في النهاية لتنظيف المساحة 
+            // This will always work in the end to clean the space.
             echo " Cleaning up workspace to save disk space..."
             deleteDir() 
         }
